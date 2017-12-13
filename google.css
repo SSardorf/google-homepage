@@ -1,0 +1,115 @@
+/* This will be the Google Page */ 
+
+html, body {
+margin:0;
+padding:0;
+}
+
+body{
+	font-family:arial,sans-serif;
+	position:static;
+	text-align: center;
+}
+
+.logo {
+	margin: auto;
+	margin-top:190px;
+	display:block;
+	
+}
+.gsearch{
+	width: 500px;
+	height: 35px;
+	display: block;
+	margin: auto;
+	box-shadow: 0px 1px 1px #888;
+	
+	transition: 0.3s;
+}
+.gsearch:hover{
+	box-shadow:0px 3px 5px #888;
+	transition: 0.5s;
+}
+
+nav{
+	text-align: right;
+	font-size: 16px;
+	padding-right: 20px;
+}
+.navlinks{
+	margin-right: 1.2em;
+	text-decoration: none;
+
+	color: rgba(0,0,0,0.87)
+}
+.navlinks:hover{
+	opacity: 0.85;
+	text-decoration:underline;
+}
+.icons{
+	position: relative;
+	top: 5px;
+	right: 5px;
+	height: 20px;
+	width: 20px;
+}
+ul button{
+	background: #4285f4;
+	color: white;
+	font-weight: bold;
+	padding: 7px 13px;
+	border-radius: 2px;
+	font-size: 14px;
+	margin: 0;
+	border: 0;
+	margin-left:15px;
+}
+ul button:hover{
+	box-shadow: 0px 1px 0 rgba(0,0,0, .15) 
+}
+#buttons button{
+	height: 35px;
+	border: 0;
+	font-size: 18px;
+	padding: 6px 12px;
+	background-color: #f2f2f2;
+	color: #757575;
+	border-radius: 3px;
+}
+#buttons button:hover{
+	color: #222;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+}
+footer{
+	bottom: 0;
+	margin: 0;
+	position: absolute;
+	text-decoration: none;
+	width: 100%;
+	background-color:#F2F2F2;
+	height: 50px;
+}
+.llinks{
+	margin-right: 1.2em;
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+	float: left;
+}
+.llinks:hover{
+	opacity: .85;
+	text-decoration: underline;
+}
+.rlinks{
+	margin-right: 1.2em;
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+	float: right;
+}
+.rlinks:hover{
+	opacity: .85;
+	text-decoration: underline;
+}
+
+
