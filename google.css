@@ -23,8 +23,8 @@ body{
 	display: block;
 	margin: auto;
 	box-shadow: 0px 1px 1px #888;
-	
 	transition: 0.3s;
+	font-size: 1.4em;
 }
 .gsearch:hover{
 	box-shadow:0px 3px 5px #888;
